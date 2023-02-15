@@ -32,36 +32,7 @@ function render(variables = {}) {
   }
   // reset the website body with the new html output
 
-  /*let name = ` ${variables.name}`;
-  if (variables.name == null) {
-    name = "Your name";
-  }
-  let lastname = ` ${variables.lastname} `;
-  if (variables.lastname == null) {
-    lastname = "Your lastname";
-  }
-  let city = ` ${variables.city}`;
-
-  if (variables.city == null) {
-    city = "Miami";
-  }
-  let country = ` ${variables.country}`;
-  if (variables.country == null) {
-    country = "USA";
-  }
-  let role = `<h3> ${variables.role}</h3>`;
-  if (variables.role == null) {
-    role = "<h3 >Web developer</h3>";
-  }
-  let twitter = ` ${variables.twitter}`;
-  if (variables.twitter == null) {
-    twitter = " ";
-  }
-  let github = ` ${variables.github}`;
-  if (variables.github == null) {
-    github = " ";
   
-  }*/
   //other option best....
   const {
     name,
