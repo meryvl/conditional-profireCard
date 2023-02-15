@@ -31,7 +31,6 @@ function render(variables = {}) {
     cover = "<div class='cover'></div>";
   }
   // reset the website body with the new html output
-  
 
   /*let name = ` ${variables.name}`;
   if (variables.name == null) {
@@ -63,7 +62,7 @@ function render(variables = {}) {
     github = " ";
   
   }*/
-//other option best....
+  //other option best....
   const {
     name,
     lastname,
@@ -75,7 +74,6 @@ function render(variables = {}) {
     linkedin,
     instagram
   } = variables;
-
 
   document.querySelector(
     "#widget_content"
@@ -131,7 +129,7 @@ window.onload = function() {
     socialMediaPosition: "position-left",
     // social media usernames
     twitter: null,
-    github: "alesanchezr",
+    github: null,
     linkedin: null,
     instagram: null,
     name: null,
